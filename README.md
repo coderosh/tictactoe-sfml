@@ -1,8 +1,18 @@
 # Tic Tac Toe - SFML
 
-> Assignment Computer Graphics
+<p align="center">
 
-Simple TicTacToe Created Using SFML.
+![TicTacToe Logo](./Assets/Icon.png)
+
+</p>
+
+<p align="center">
+
+Two and single player Tic Tac Toe game made with SFML.
+
+</p>
+
+> Assignment Computer Graphics
 
 ## Requirements
 
