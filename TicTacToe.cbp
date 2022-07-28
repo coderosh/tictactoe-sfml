@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TicTacToe" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TicTacToe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="Engine" />
+					<Add directory="./" />
+					<Add directory="Scenes" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TicTacToe" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Engine" />
+					<Add directory="./" />
+					<Add directory="Scenes" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="DEFINES.hpp" />
+		<Unit filename="Engine/AssetManager.cpp" />
+		<Unit filename="Engine/AssetManager.hpp" />
+		<Unit filename="Engine/Engine.cpp" />
+		<Unit filename="Engine/Engine.hpp" />
+		<Unit filename="Engine/InputManager.cpp" />
+		<Unit filename="Engine/InputManager.hpp" />
+		<Unit filename="Engine/Scene.hpp" />
+		<Unit filename="Engine/SceneManager.cpp" />
+		<Unit filename="Engine/SceneManager.hpp" />
+		<Unit filename="Scenes/BaseGameScene.cpp" />
+		<Unit filename="Scenes/BaseGameScene.hpp" />
+		<Unit filename="Scenes/HumanVsComputerScene.cpp" />
+		<Unit filename="Scenes/HumanVsHumanScene.cpp" />
+		<Unit filename="Scenes/MainMenuScene.cpp" />
+		<Unit filename="Scenes/SplashScene.cpp" />
+		<Unit filename="SpriteObject.cpp" />
+		<Unit filename="SpriteObject.hpp" />
+		<Unit filename="TicTacToe.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="utils.hpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
