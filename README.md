@@ -9,9 +9,9 @@ Simple TicTacToe Created Using SFML.
 - Download IDE or Compiler (I used [codeblocks](https://www.codeblocks.org/) with mingw)
 - Setup [SFML](https://www.sfml-dev.org/tutorials/2.5/) for your IDE
 
-<br />
+## Download TicTacToe
 
-<hr />
+[Download For Windows](https://github.com/coderosh/tictactoe-sfml/releases/download/1.0.0/TicTacToe-Windows-Setup.exe)
 
 <br />
 
