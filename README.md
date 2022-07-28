@@ -1,5 +1,3 @@
-# Tic Tac Toe - SFML
-
 <p align="center">
     <img width="200" src="./Assets/Icon.png">
 </p>
@@ -8,7 +6,11 @@
 Two and single player Tic Tac Toe game made with SFML.
 </p>
 
-> Assignment Computer Graphics
+<br />
+
+# Tic Tac Toe - SFML
+
+> Assignment of Computer Graphics
 
 ## Requirements
 
